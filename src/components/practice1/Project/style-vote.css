@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Añade un espacio entre los elementos */
+
+    /* Borde y radio de borde */
+    border: 1px solid #ccc; /* Ancho y color del borde */
+    border-radius: 10px; /* Radio del borde */
+    width: 250px;
+}
+
+img {
+    width: 150px; /* Ancho fijo de la imagen (ajusta según tus necesidades) */
+    max-height: 150px; /* Altura máxima de la imagen (ajusta según tus necesidades) */
+    margin: 10px 0; /* Añade espacio vertical entre la imagen y otros elementos */
+}
+
+button {
+    margin-top: 10px; /* Añade espacio entre el botón y otros elementos */
+    align-items: center;
+}
+
+.background-vote {
+    background-color: #747bff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*.background-vote-element{
+    !*width: max-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;*!
+    flex-direction:column;
+}*/
+
+.vote {
+    color: #ff6a00;
+    font-style: italic;
+    font-weight: bold;
+}

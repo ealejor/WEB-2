@@ -1,0 +1,9 @@
+.container {
+    border-radius: 10px;
+    border: red solid;
+    padding: 10px;
+    background-color: aqua;
+    color: #1a1a1a;
+    margin: 10px;
+}
+

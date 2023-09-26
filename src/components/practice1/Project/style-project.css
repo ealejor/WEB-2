@@ -1,0 +1,15 @@
+/* style.css */
+
+.custom-paragraph {
+    font-style: italic; /* Texto en cursiva */
+}
+
+.custom-paragraph {
+    font-weight: bold; /* Texto en negrilla */
+    color: red; /* Color azul (puedes ajustarlo según tus preferencias) */
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+}
